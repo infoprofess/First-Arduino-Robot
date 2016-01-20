@@ -1,0 +1,14 @@
+// servoCenter.pde - Center servo
+// (c) Kimmo Karvinen & Tero Karvinen http://BotBook.com
+// updated – Joe Saavedra, 2010
+#include <Servo.h> 1
+Servo myServo; 2
+void setup()
+{
+myServo.attach(2); 3
+myServo.write(90); 4
+}
+void loop()
+{
+delay(100);
+}
